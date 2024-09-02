@@ -1,0 +1,28 @@
+.confirm-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .confirm-title {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-message {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-instructions {
+    font-size: 1rem;
+    color: #666;
+  }
+  

@@ -1,0 +1,73 @@
+.menu-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+    background-color: #f4f4f9; 
+}
+
+.menu-section h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: center;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 355px;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-card h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.menu-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-card ul li {
+    margin-bottom: 10px;
+}
+
+/* Unique styles for each category */
+.menu-card--veg {
+    border: 2px solid #4caf50; /* Green */
+}
+
+.menu-card--non-veg {
+    border: 2px solid #f44336; /* Red */
+}
+
+.menu-card--sweet-dish {
+    border: 2px solid #ffeb3b; /* Yellow */
+}
+
+.menu-card--dessert {
+    border: 2px solid #9c27b0; /* Purple */
+}
+
+.menu-card--starter {
+    border: 2px solid #03a9f4; /* Blue */
+}
